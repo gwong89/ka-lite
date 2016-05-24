@@ -220,6 +220,7 @@ def get_size(start_path):
 
 # Utility functions for pinging or killing PIDs
 if os.name == 'posix':
+
     def pid_exists(pid):
         """Check whether PID exists in the current process table."""
         import errno
